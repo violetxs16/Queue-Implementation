@@ -10,7 +10,7 @@ class Queue:
         item = self.items.pop()
         return item
     def isEmpty(self):#Is queue empty
-        boolVal = self.items == 0
+        boolVal = len(self.items) == 0
         return boolVal
     def size(self): #Return numbers of items in queue
         return len(self.items)
